@@ -89,7 +89,13 @@ public class RichUrlActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         if (webView != null) {
+            webView.setWebChromeClient(null);
+            webView.setWebViewClient(null);
+            webView.getSettings().setJavaScriptEnabled(false);
+            webView.clearCache(true);
+            webView.removeAllViews();
             webView.destroy();
+            webView = null;
         }
     }
 }
