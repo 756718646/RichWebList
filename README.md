@@ -4,6 +4,8 @@
 
 ![](img/4101535124707_.pic.jpg)
 
+<img src="img/4111535124734_.pic.jpg"  height="330" width="495">
+
 待完成功能:
 1,video标签全屏适配
 2,滑动webView过程中图片懒加载
