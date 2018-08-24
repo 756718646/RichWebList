@@ -63,6 +63,8 @@ public class RichDataActivity extends AppCompatActivity {
         }), "control");
         //设置html内容
         webView.setShow(getHtmlData());
+        //设置图片加载失败回调
+        webView.setLoadImgError();
         //添加点击图片脚本事件
         webView.setImageClickListener();
         adapter = new ListAdapter(datas);
