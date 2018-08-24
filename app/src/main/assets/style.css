@@ -1,0 +1,196 @@
+/**
+ * Copyright (C) 2015 Wasabeef
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+@charset "UTF-8";
+
+
+html {
+  height: 100%;
+}
+
+body {
+  overflow: scroll;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  min-height:100%;
+}
+
+#editor {
+  display: table-cell;
+  outline: 0px solid transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#editor[placeholder]:empty:not(:focus):before {
+  content: attr(placeholder);
+  opacity: .5;
+}}
+
+
+/*富文本样式统一*/
+body,
+html {
+    font-size: 14px;
+    color: #282828;
+}
+#editor {
+    padding: 16px;
+    font-size: 16px;
+}
+
+
+/*引用标签*/
+
+/*插入模块样式*/
+
+}
+h2,h3,h4 {
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 20px;
+    word-break:break-all;
+}
+h2 {
+    font-size: 20px;
+	margin-bottom: 20px;
+	word-break:break-all;
+}
+
+h3 {
+    font-size: 18px;
+	margin-bottom: 20px;
+	word-break:break-all;
+}
+
+h4 {
+    font-size: 16px;
+	margin-bottom: 20px;
+	word-break:break-all;
+}
+a {
+    color: #2776d8;
+    font-size: 16px;
+    text-decoration:none;
+}
+ol,
+ul{
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+ul li {
+    list-style: disc inside;
+    line-height: 150%;
+}
+ol li {
+    list-style: decimal inside;
+    line-height: 150%;
+}
+p {
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+object {
+    width: 100%;
+    height: 100%;
+}
+img {
+    display: inline-block !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    margin-right: 10px;
+    vertical-align: bottom;
+    margin-bottom: 0px;
+}
+video{
+    background-color:#000000;
+    max-width: 100% !important;
+    width:100% !important;
+    height: 200px;
+}
+
+iframe{
+    background-color:#000000;
+    max-width: 100% !important;
+    width:100% !important;
+    height: 200px;
+}
+
+blockquote {
+    display: block;
+    padding: 10px;
+    width: 90%;
+    font-size: 16px;
+    line-height: 180%;
+    border-left: 4px solid #a2b3bb;
+    background: #f2f2f2;
+    margin: 0;
+    margin-bottom: 20px;
+}
+blockquote p {
+    margin: 0;
+}
+.attachment-module,
+.attachment-module2 {
+    display: inline-block;
+    width: 90%;
+    min-height: 40px;
+    background: #f2f2f2;
+    overflow: hidden;
+    padding: 10px;
+    border-left: 4px solid #a2b3bb;
+}
+.attachment-module img,
+.attachment-module2 img {
+    display: block;
+    float: left;
+    width: 56px;
+    height: 40px;
+    margin: 0 !important;
+}
+.attachment-module .text,
+.attachment-module2 .text{
+    display: block;
+    margin-left: 66px;
+    height: 40px;
+    font-size: 14px;
+    color: #282828;
+    line-height: 20px;
+    overflow: hidden;
+}
+.attachment-module .text b,
+.attachment-module2 .text b {
+    display: table-cell;
+    height: 40px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.attachment-module2 {
+    min-height: 40px;
+}
+.attachment-module2 img{
+    width: 40px;
+    height: 40px;
+}
+.attachment-module2 .text{
+    height: 40px;
+    margin-left: 56px;
+}
+.attachment-module2 .text b{
+    height: 40px;
+}
