@@ -1,22 +1,35 @@
 ### 仿今日头条/网易新闻文章详情页面
 
-使用WebView+RecyclerView组合
+使用WebView+RecyclerView组合,嵌套滚动。滚动机制基于HeaderViewPager，在dispatchTouchEvent中进行事件处理。
+除了RecyclerView还支持ListView等。
 
-![](img/4101535124707_.pic.jpg)
+- 支持url或者html标签填充
+- 填充的html图片支持点击回调
 
-<img src="img/4111535124734_.pic.jpg"  height="330" width="495">
+
+文档待续完成中。。。
+
+<div align="center">
+<img src="img/4131535124878_.pic.jpg"  height="640" width="360">
+<img src="img/4101535124707_.pic.jpg"  height="640" width="360">
+<img src="img/4111535124734_.pic.jpg"  height="640" width="360">
+<img src="img/4121535124761_.pic.jpg"  height="640" width="360">
+</div>
+
+
 
 待完成功能:
-1,video标签全屏适配
-2,滑动webView过程中图片懒加载
-3,移动网络不加载图片，点击加载图片
+- 1,video标签全屏适配
+- 2,滑动webView过程中图片懒加载
+- 3,移动网络不加载图片，点击加载图片
+- 4,定位阅读位置
 
 参考资料:
-CoolIndicator
-https://github.com/Justson/CoolIndicator
-HeaderViewPager
-https://github.com/jeasonlzy/HeaderViewPager
-richeditor-android
-https://github.com/wasabeef/richeditor-android
+- CoolIndicator
+- https://github.com/Justson/CoolIndicator
+- HeaderViewPager
+- https://github.com/jeasonlzy/HeaderViewPager
+- richeditor-android
+- https://github.com/wasabeef/richeditor-android
 
 
