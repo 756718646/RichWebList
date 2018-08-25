@@ -19,8 +19,6 @@
 
 <img src="img/down.jpg" >
 
-<img src="img/thank.jpg" height="400" width="400" >
-
 待完成功能:
 - 1,video标签全屏适配
 - 2,滑动webView过程中图片懒加载
