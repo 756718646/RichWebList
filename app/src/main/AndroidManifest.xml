@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".RichUrlActivity" />
-        <activity android:name=".RichDataActivity"></activity>
+        <activity android:name=".RichDataActivity" />
+        <activity android:name=".EmptyListActivity"></activity>
     </application>
 
 </manifest>

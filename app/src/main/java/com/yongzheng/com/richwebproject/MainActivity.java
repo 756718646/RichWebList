@@ -32,6 +32,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(context,RichDataActivity.class));
             }
         });
+        //显示空列表+html
+        findViewById(R.id.btn_empty).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(context,EmptyListActivity.class));
+            }
+        });
+
     }
 
 }
