@@ -11,15 +11,13 @@
 文档待续完成中。。。
 
 <div align="center">
-<img src="img/4131535124878_.pic.jpg"  height="640" width="360">
+<img src="img/output1.gif"  height="640" width="360">
+<img src="img/output2.gif"  height="640" width="360">
 <img src="img/4101535124707_.pic.jpg"  height="640" width="360">
-<img src="img/4111535124734_.pic.jpg"  height="640" width="360">
 <img src="img/4121535124761_.pic.jpg"  height="640" width="360">
 </div>
 
 <img src="img/down.jpg" >
-
-<img src="img/thank.jpg" height="400" width="400" >
 
 待完成功能:
 - 1,video标签全屏适配
